@@ -1,0 +1,25 @@
+From 30bf9faecb7866e54ab245a14bc2ee578d15a7e9 Mon Sep 17 00:00:00 2001
+From: NicoFR75 <nicolas@mouraud-paugam.fr>
+Date: Thu, 25 May 2023 21:20:25 +0200
+Subject: [PATCH] dt-bindings-add-vendor-prefix-for-nsiway
+
+---
+ Documentation/devicetree/bindings/vendor-prefixes.yaml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/Documentation/devicetree/bindings/vendor-prefixes.yaml b/Documentation/devicetree/bindings/vendor-prefixes.yaml
+index 967e78c5e..d02e50178 100644
+--- a/Documentation/devicetree/bindings/vendor-prefixes.yaml
++++ b/Documentation/devicetree/bindings/vendor-prefixes.yaml
+@@ -661,6 +661,8 @@ patternProperties:
+     description: Nordic Semiconductor
+   "^novtech,.*":
+     description: NovTech, Inc.
++  "^nsiway,.*":
++    description: Shenzhen Nsiway Technology Co., Ltd
+   "^nutsboard,.*":
+     description: NutsBoard
+   "^nuvoton,.*":
+-- 
+2.37.1 (Apple Git-137.1)
+
