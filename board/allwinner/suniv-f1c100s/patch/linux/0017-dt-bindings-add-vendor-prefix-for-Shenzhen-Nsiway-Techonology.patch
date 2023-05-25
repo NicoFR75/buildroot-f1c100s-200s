@@ -1,0 +1,19 @@
+Signed-off-by: Icenowy Zheng <icenowy at aosc.xyz>
+---
+ Documentation/devicetree/bindings/vendor-prefixes.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Documentation/devicetree/bindings/vendor-prefixes.txt b/Documentation/devicetree/bindings/vendor-prefixes.txt
+index 28c868638c6c..55ecac6737c3 100644
+--- a/Documentation/devicetree/bindings/vendor-prefixes.txt
++++ b/Documentation/devicetree/bindings/vendor-prefixes.txt
+@@ -215,6 +215,7 @@ newhaven	Newhaven Display International
+ ni	National Instruments
+ nintendo	Nintendo
+ nokia	Nokia
++nsiway	Shenzhen Nsiway Technology Co., Ltd.
+ nuvoton	Nuvoton Technology Corporation
+ nvd	New Vision Display
+ nvidia	NVIDIA
+-- 
+2.12.0

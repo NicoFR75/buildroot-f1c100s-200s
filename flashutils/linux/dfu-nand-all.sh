@@ -5,4 +5,4 @@ do
     echo -n ".";
 done
 echo "Gotcha!";
-dfu-util -R -a all -D output/images/sysimage-nand.img
+dfu-util -R -a all -D ../../output/images/sysimage-nand.img
